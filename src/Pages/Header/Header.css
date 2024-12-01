@@ -1,5 +1,5 @@
 .header {
-  background-color: transparent; /* Normal color, no dark overlay */
+  /* Normal color, no dark overlay */
   position: relative; /* Prevent accidental inheritance of pseudo-elements */
   z-index: 10; /* Ensure it appears above homepage styles */
 }
