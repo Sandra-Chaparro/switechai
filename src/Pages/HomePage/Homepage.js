@@ -15,8 +15,8 @@ const Homepage = () => {
         </div>
         <div className="hero-text ">
           <h1 className=" hero-h1">
-            Custom Software, <br></br>AI-Powered Virtual Assistants, and
-            Seamless Digital Solutions
+            Custom Software, <br></br>AI-Powered Virtual Assistants, <br></br> and
+            Seamless Digital Solutions.
           </h1>
           <p className="hero-p">Automate Your Business Processes.</p>
           <p className="hero-p">Elevate Your Digital Transformation Today.</p>
