@@ -8,6 +8,10 @@
   align-items: center; /* Vertically center content (logo and navigation) */
 }
 
+.logo-container{
+  margin-right: 15%;
+}
+
 .header img {
   height: 3.5rem; /* Adjust the height to increase logo size */
   width: auto;    /* Maintain aspect ratio */
@@ -16,4 +20,22 @@
 .header a {
   display: flex;
   align-items: center; /* Vertically align the text */
+}
+
+@media (max-width: 1024px) and (min-width: 728px) {
+  .logo-container {
+    margin-right: 5%; /* Reduce the margin between logo and navigation */
+  }
+
+  .header .flex {
+    justify-content: space-between; /* Ensure proper alignment */
+  }
+
+  .header a {
+    font-size: 0.9rem; /* Optional: Slightly reduce font size for tabs */
+  }
+
+  .header img {
+    height: 3rem; /* Optional: Slightly reduce logo size */
+  }
 }
