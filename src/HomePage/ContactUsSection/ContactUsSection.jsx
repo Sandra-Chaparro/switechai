@@ -1,7 +1,8 @@
 import React from 'react'
+import "./ContactUsSection.css"
 
 export default function ContactUsSection() {
   return (
-    <div>ContactUsSection</div>
+    <section className='ContactUsSectionContainer'>ContactUsSection</section>
   )
 }

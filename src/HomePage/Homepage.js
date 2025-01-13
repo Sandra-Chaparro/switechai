@@ -31,9 +31,9 @@ const Homepage = () => {
       </script>
   </Helmet>
     <main className="homepage">
-      <header id="heroSection">
+      <section id="heroSection">
         <HeroSection />  
-      </header>
+      </section>
       <section id="servicesSection">
         <ServicesSection />     
       </section>

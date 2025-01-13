@@ -31,9 +31,13 @@
     max-width: 50%; /* Optional: Limits the text section width to 50% */
   }
   
-  .hero-h1 {
+  .hero-h1h2 {
     color: white;
-    margin-bottom: 20px;
+  }
+
+  .hero-h1h2 span {
+    display: block;
+    line-height: 1.9;
   }
   
   .hero-p {
@@ -49,4 +53,14 @@
   
   .hero-p:last-of-type {
     bottom: 20px; /* Keep the second paragraph at the bottom */
+  }
+  .quote-link{
+    margin-top: 50px;
+    align-self: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 25px 30px;
+    text-align: center;
+    font-size: medium;
   }

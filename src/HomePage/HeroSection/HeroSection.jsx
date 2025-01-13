@@ -13,13 +13,22 @@ export default function HeroSection() {
       />
     </div>
     <div className="hero-text ">
-      <h1 className=" hero-h1">
-        Custom Software, <br></br>AI-Powered Virtual Assistants, <br></br> and
-        Seamless Digital Solutions.
+      <h1 className="hero-h1h2">
+        Custom Web Development,
       </h1>
-      <p className="hero-p">Automate Your Business Processes.</p>
-      <p className="hero-p">Elevate Your Digital Transformation Today.</p>
-      <button href="#contact" class="btn-primary">Get Your Free Quote</button>
+      <h2 className="hero-h1h2">
+        <span>
+          AI-Powered Virtual Assistants,
+        </span>
+        <span>
+          and Seamless Software Solutions.
+        </span>
+      </h2>
+     
+      <p className="hero-p">Automate Your Business with AI-Powered Solutions.</p>
+      <p className="hero-p">Elevate Your Web Development and Digital Transformation Today.</p>
+      <a href="#contact" className="quote-link">Get Your Free Quote</a>
+
     </div>
   </div>
   )

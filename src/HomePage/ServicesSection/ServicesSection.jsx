@@ -1,7 +1,8 @@
 import React from 'react'
+import "./ServicesSection.css";
 
 export default function ServicesSection() {
   return (
-    <div>ServicesSection</div>
+    <section className='ServicesSectionContainer'>ServicesSection</section>
   )
 }

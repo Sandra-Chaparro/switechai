@@ -1,7 +1,8 @@
 import React from 'react'
+import "./PortfolioSection.css";
 
 export default function PortfolioSection() {
   return (
-    <div>PortfolioSection</div>
+    <section className='PortfolioSectionContainer'>PortfolioSection</section>
   )
 }
