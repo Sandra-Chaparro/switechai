@@ -12,10 +12,12 @@
     flex: 1; /* Takes up 50% of the width */
     max-width: 50%; /* Optional: Limits the image width to 50% */
   }
+
   .hero-image img {
     margin-left: 40px;
     width: 80%;
     height: auto; /* Ensures image maintains aspect ratio */
+    border-radius: 10px;
   }
   
   .hero-text {

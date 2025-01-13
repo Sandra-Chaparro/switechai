@@ -15,6 +15,7 @@
 .header img {
   height: 3.5rem; /* Adjust the height to increase logo size */
   width: auto;    /* Maintain aspect ratio */
+  border-radius: 15px;
 }
 
 .header a {

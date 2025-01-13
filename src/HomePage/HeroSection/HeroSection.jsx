@@ -8,7 +8,7 @@ export default function HeroSection() {
     <div className="hero-image">
       <img
         src={backgroundImage}
-        alt="Tech Image"
+        alt="Web development image"
         className="w-full h-auto"
       />
     </div>
