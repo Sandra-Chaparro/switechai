@@ -8,7 +8,7 @@ export default function HeroSection() {
     <div className="hero-image">
       <img
         src={backgroundImage}
-        alt="Web development image"
+        alt="A professional web designer working on a website"
         className="w-full h-auto"
       />
     </div>
@@ -19,6 +19,7 @@ export default function HeroSection() {
       </h1>
       <p className="hero-p">Automate Your Business Processes.</p>
       <p className="hero-p">Elevate Your Digital Transformation Today.</p>
+      <button href="#contact" class="btn-primary">Get Your Free Quote</button>
     </div>
   </div>
   )

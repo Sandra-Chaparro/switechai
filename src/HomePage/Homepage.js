@@ -8,6 +8,7 @@ import PortfolioSection from "./PortfolioSection/PortfolioSection";
 import ContactUsSection from "./ContactUsSection/ContactUsSection";
 
 const Homepage = () => {
+
   return (
     <>
     <Helmet>
@@ -18,18 +19,28 @@ const Homepage = () => {
     />
     <meta name="keywords" content="Web Development, Portfolio, Services, Contact" />
     <meta name="author" content="SwitechAI" />
+     {/* JSON-LD structured data for rich results */}
+     <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.switechai.com",
+            "name": "SwitechAI",
+            "description": "Professional web development services.",
+          })}
+      </script>
   </Helmet>
     <main className="homepage">
-      <header>
+      <header id="heroSection">
         <HeroSection />  
       </header>
-      <section>
+      <section id="servicesSection">
         <ServicesSection />     
       </section>
-      <section>
+      <section id="portfolioSection">
         <PortfolioSection />
       </section>
-      <section>
+      <section id="contactUsSection">
         <ContactUsSection />
       </section>  
     </main>
